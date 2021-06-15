@@ -1096,7 +1096,7 @@ button:focus {
     box-shadow: 0px 20px 40px rgba(103, 118, 128, 0.2);
     padding: 0.5rem 0.9375rem;
     position: fixed;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
@@ -1252,7 +1252,6 @@ button:focus {
   .footer {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    margin-bottom: 60px;
   }
 }
 
@@ -1396,6 +1395,9 @@ button:focus {
 .gallery-grid__item {
   margin-bottom: 1.25rem;
   width: calc(33% - 18px);
+}
+.gallery-grid__category {
+  color: #5E6E80;
 }
 @media only screen and (max-width: 991px) {
   .gallery-grid__item {
